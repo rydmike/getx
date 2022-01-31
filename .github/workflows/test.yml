@@ -42,7 +42,7 @@ jobs:
         run: flutter pub outdated
       # - name: "Verify that Dart formatting is used, fail if not"
       #  run: dart format --output=none --set-exit-if-changed .
-      - name: "Test package FlexColorScheme with coverage"
+      - name: "Test package get (GetX) with coverage"
         run: flutter test --coverage
       - name: Upload test coverage to Codecov
         uses: codecov/codecov-action@v1
